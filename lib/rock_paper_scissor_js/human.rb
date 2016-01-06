@@ -1,6 +1,8 @@
 require_relative "player.rb"
 
+
 class Human < Player
+  attr_accessor :name
   def initialize
     @name = ask_name
   end
