@@ -4,5 +4,5 @@ require_relative "rock_paper_scissor_js/human.rb"
 require_relative "rock_paper_scissor_js/computer.rb"
 
 module RockPaperScissorJs
-  game = Game.new  
+  game = Game.new
 end
